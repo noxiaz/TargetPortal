@@ -13,7 +13,6 @@ using UnityEngine;
 namespace TargetPortal;
 
 [BepInPlugin(ModGUID, ModName, ModVersion)]
-[BepInIncompatibility("org.bepinex.plugins.valheim_plus")]
 [BepInDependency("org.bepinex.plugins.groups", BepInDependency.DependencyFlags.SoftDependency)]
 public class TargetPortal : BaseUnityPlugin
 {
